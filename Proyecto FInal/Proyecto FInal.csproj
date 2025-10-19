@@ -50,70 +50,103 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Compra.cs">
+    <Compile Include="Proyecto\Clases\Clase Cliente\Cliente.cs" />
+    <Compile Include="Proyecto\Clases\Clase Compras\Compras.cs" />
+    <Compile Include="Proyecto\Clases\Clase DetalleCompra\DetalleCompra.cs" />
+    <Compile Include="Proyecto\Clases\Clase DetalleVenta\DetalleVenta.cs" />
+    <Compile Include="Proyecto\Clases\Clase Producto\Producto.cs" />
+    <Compile Include="Proyecto\Clases\Clase Proveedor\Proveedor.cs" />
+    <Compile Include="Proyecto\Clases\Clase TipoProducto\TipoProducto.cs" />
+    <Compile Include="Proyecto\Clases\Clase Ventas\Ventas.cs" />
+    <Compile Include="Proyecto\Principal\Clientes\Clientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Compra.Designer.cs">
+    <Compile Include="Proyecto\Principal\Clientes\Clientes.Designer.cs">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto\Principal\Finanzas\Compras\Compra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyecto\Principal\Finanzas\Compras\Compra.Designer.cs">
       <DependentUpon>Compra.cs</DependentUpon>
     </Compile>
-    <Compile Include="Conexion SQL\ConexionMySQL.cs" />
-    <Compile Include="Login\ControlLogin.cs" />
-    <Compile Include="LoginRB\ControlRegistroUsuario.cs" />
-    <Compile Include="Finanzas.cs">
+    <Compile Include="Proyecto\Clases\Conexion SQL\ConexionMySQL.cs" />
+    <Compile Include="Proyecto\Inicio Sesion\LoginRB\ControlBorradoUsuario.cs" />
+    <Compile Include="Proyecto\Inicio Sesion\Login\ControlLogin.cs" />
+    <Compile Include="Proyecto\Inicio Sesion\LoginRB\ControlRegistroUsuario.cs" />
+    <Compile Include="Proyecto\Inicio Sesion\Login\ModeloLogin.cs" />
+    <Compile Include="Proyecto\Inicio Sesion\LoginRB\ModeloUsuario.cs" />
+    <Compile Include="Proyecto\Principal\Inventario\Productos\Productos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Finanzas.Designer.cs">
-      <DependentUpon>Finanzas.cs</DependentUpon>
+    <Compile Include="Proyecto\Principal\Inventario\Productos\Productos.Designer.cs">
+      <DependentUpon>Productos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Inventario.cs">
+    <Compile Include="Proyecto\Principal\Inventario\TipoProductos\TiposProductos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Inventario.Designer.cs">
-      <DependentUpon>Inventario.cs</DependentUpon>
+    <Compile Include="Proyecto\Principal\Inventario\TipoProductos\TiposProductos.Designer.cs">
+      <DependentUpon>TiposProductos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login\ModeloLogin.cs" />
-    <Compile Include="LoginRB\ModeloUsuario.cs" />
-    <Compile Include="Proveedor.cs">
+    <Compile Include="Proyecto\Principal\Proveedores\Proveedor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Proveedor.Designer.cs">
+    <Compile Include="Proyecto\Principal\Proveedores\Proveedor.Designer.cs">
       <DependentUpon>Proveedor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Clase Usuario\Usuario.cs" />
-    <Compile Include="Venta.cs">
+    <Compile Include="Proyecto\Clases\Clase Usuario\Usuario.cs" />
+    <Compile Include="Proyecto\Principal\Finanzas\Ventas\Venta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Venta.Designer.cs">
+    <Compile Include="Proyecto\Principal\Finanzas\Ventas\Venta.Designer.cs">
       <DependentUpon>Venta.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginRB\LoginR-B.cs">
+    <Compile Include="Proyecto\Inicio Sesion\LoginRB\LoginR-B.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginRB\.Designer.cs">
+    <Compile Include="Proyecto\Inicio Sesion\LoginRB\.Designer.cs">
       <DependentUpon>LoginR-B.cs</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Principal.cs">
+    <Compile Include="Proyecto\Principal\Principal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Principal.Designer.cs">
+    <Compile Include="Proyecto\Principal\Principal.Designer.cs">
       <DependentUpon>Principal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login\Login.cs">
+    <Compile Include="Proyecto\Inicio Sesion\Login\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login\Login.Designer.cs">
+    <Compile Include="Proyecto\Inicio Sesion\Login\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Login\Login.resx">
+    <Compile Include="Proyecto\Principal\Reportes\Reportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyecto\Principal\Reportes\Reportes.Designer.cs">
+      <DependentUpon>Reportes.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Proyecto\Inicio Sesion\Login\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginRB\LoginR-B.resx">
+    <EmbeddedResource Include="Proyecto\Inicio Sesion\LoginRB\LoginR-B.resx">
       <DependentUpon>LoginR-B.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Principal.resx">
+    <EmbeddedResource Include="Proyecto\Principal\Clientes\Clientes.resx">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\Principal\Finanzas\Compras\Compra.resx">
+      <DependentUpon>Compra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\Principal\Inventario\Productos\Productos.resx">
+      <DependentUpon>Productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\Principal\Inventario\TipoProductos\TiposProductos.resx">
+      <DependentUpon>TiposProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\Principal\Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -124,9 +157,16 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Venta.resx">
+    <EmbeddedResource Include="Proyecto\Principal\Finanzas\Ventas\Venta.resx">
       <DependentUpon>Venta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\Principal\Proveedores\Proveedor.resx">
+      <DependentUpon>Proveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\Principal\Reportes\Reportes.resx">
+      <DependentUpon>Reportes.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -140,6 +180,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Fondo Login.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

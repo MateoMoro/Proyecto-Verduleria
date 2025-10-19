@@ -55,3 +55,9 @@ D:\Escuela (Tareas)\Modelos y Sistemas\Proyecto FInal\obj\Debug\Proyecto FInal.c
 D:\Escuela (Tareas)\Modelos y Sistemas\Proyecto FInal\obj\Debug\Proyecto.2459649F.Up2Date
 D:\Escuela (Tareas)\Modelos y Sistemas\Proyecto FInal\obj\Debug\Proyecto FInal.exe
 D:\Escuela (Tareas)\Modelos y Sistemas\Proyecto FInal\obj\Debug\Proyecto FInal.pdb
+D:\Escuela (Tareas)\Modelos y Sistemas\Proyecto FInal\obj\Debug\Proyecto_FInal.Proyecto.Principal.Clientes.Clientes.resources
+D:\Escuela (Tareas)\Modelos y Sistemas\Proyecto FInal\obj\Debug\Proyecto_FInal.Compra.resources
+D:\Escuela (Tareas)\Modelos y Sistemas\Proyecto FInal\obj\Debug\Proyecto_FInal.Proyecto.Principal.Inventario.Productos.resources
+D:\Escuela (Tareas)\Modelos y Sistemas\Proyecto FInal\obj\Debug\Proyecto_FInal.Proyecto.Principal.Inventario.TipoProductos.TiposProductos.resources
+D:\Escuela (Tareas)\Modelos y Sistemas\Proyecto FInal\obj\Debug\Proyecto_FInal.Proveedor.resources
+D:\Escuela (Tareas)\Modelos y Sistemas\Proyecto FInal\obj\Debug\Proyecto_FInal.Proyecto.Principal.Reportes.Reportes.resources
