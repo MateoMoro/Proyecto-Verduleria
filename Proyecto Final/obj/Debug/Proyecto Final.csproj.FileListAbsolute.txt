@@ -1,0 +1,62 @@
+C:\Users\Mateo\source\repos\Proyecto Final\bin\Debug\Proyecto Final.exe.config
+C:\Users\Mateo\source\repos\Proyecto Final\bin\Debug\Proyecto Final.exe
+C:\Users\Mateo\source\repos\Proyecto Final\bin\Debug\Proyecto Final.pdb
+C:\Users\Mateo\source\repos\Proyecto Final\bin\Debug\MySql.Data.dll
+C:\Users\Mateo\source\repos\Proyecto Final\bin\Debug\MySql.Data.xml
+C:\Users\Mateo\source\repos\Proyecto Final\obj\Debug\Proyecto Final.csproj.AssemblyReference.cache
+C:\Users\Mateo\source\repos\Proyecto Final\obj\Debug\Proyecto_Final.Proyecto.Inicio_Sesion.FormInicioSesion.resources
+C:\Users\Mateo\source\repos\Proyecto Final\obj\Debug\Proyecto Final.csproj.GenerateResource.cache
+C:\Users\Mateo\source\repos\Proyecto Final\obj\Debug\Proyecto Final.csproj.CoreCompileInputs.cache
+C:\Users\Mateo\source\repos\Proyecto Final\obj\Debug\Proyecto.334F53BF.Up2Date
+C:\Users\Mateo\source\repos\Proyecto Final\obj\Debug\Proyecto Final.exe
+C:\Users\Mateo\source\repos\Proyecto Final\obj\Debug\Proyecto Final.pdb
+C:\Users\Mateo\source\repos\Proyecto Final\obj\Debug\Proyecto Final.exe.config
+C:\Users\Mateo\source\repos\Proyecto Final\obj\Debug\Proyecto_Final.Proyecto.Menu.FormPrincipal.resources
+C:\Users\Mateo\source\repos\Proyecto Final\obj\Debug\Proyecto_Final.Proyecto.Menu.Crear_y_Borrar_Usuario.FormCrearYBorrarUsuario.resources
+C:\Users\Mateo\source\repos\Proyecto Final\obj\Debug\Proyecto_Final.Proyecto.Menu.Tipos_Productos.FormTiposProductos.resources
+C:\Users\Mateo\source\repos\Proyecto Final\obj\Debug\Proyecto_Final.Proyecto.Menu.Proveedores.FormProveedores.resources
+D:\Proyecto\Proyecto Final\bin\Debug\Proyecto Final.exe.config
+D:\Proyecto\Proyecto Final\bin\Debug\Proyecto Final.exe
+D:\Proyecto\Proyecto Final\bin\Debug\Proyecto Final.pdb
+D:\Proyecto\Proyecto Final\obj\Debug\Proyecto Final.csproj.AssemblyReference.cache
+D:\Proyecto\Proyecto Final\obj\Debug\Proyecto_Final.Proyecto.Inicio_Sesion.FormInicioSesion.resources
+D:\Proyecto\Proyecto Final\obj\Debug\Proyecto_Final.Proyecto.Menu.Crear_y_Borrar_Usuario.FormCrearYBorrarUsuario.resources
+D:\Proyecto\Proyecto Final\obj\Debug\Proyecto_Final.Proyecto.Menu.FormPrincipal.resources
+D:\Proyecto\Proyecto Final\obj\Debug\Proyecto_Final.Proyecto.Menu.Productos.FormProductos.resources
+D:\Proyecto\Proyecto Final\obj\Debug\Proyecto_Final.Proyecto.Menu.Proveedores.FormProveedores.resources
+D:\Proyecto\Proyecto Final\obj\Debug\Proyecto_Final.Proyecto.Menu.Tipos_Productos.FormTiposProductos.resources
+D:\Proyecto\Proyecto Final\obj\Debug\Proyecto Final.csproj.GenerateResource.cache
+D:\Proyecto\Proyecto Final\obj\Debug\Proyecto Final.csproj.CoreCompileInputs.cache
+D:\Proyecto\Proyecto Final\obj\Debug\Proyecto Final.exe
+D:\Proyecto\Proyecto Final\obj\Debug\Proyecto Final.pdb
+D:\Proyecto\Proyecto Final\bin\Debug\System.Memory.dll
+D:\Proyecto\Proyecto Final\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Proyecto\Proyecto Final\bin\Debug\System.Numerics.Vectors.dll
+D:\Proyecto\Proyecto Final\bin\Debug\System.Buffers.dll
+D:\Proyecto\Proyecto Final\bin\Debug\MySql.Data.xml
+D:\Proyecto\Proyecto Final\obj\Debug\Proyecto Final.csproj.SuggestedBindingRedirects.cache
+D:\Proyecto\Proyecto Final\obj\Debug\Proyecto Final.csproj.CopyComplete
+F:\Proyecto\Proyecto Final\bin\Debug\Proyecto Final.exe.config
+F:\Proyecto\Proyecto Final\bin\Debug\Proyecto Final.exe
+F:\Proyecto\Proyecto Final\bin\Debug\Proyecto Final.pdb
+F:\Proyecto\Proyecto Final\bin\Debug\System.Memory.dll
+F:\Proyecto\Proyecto Final\bin\Debug\System.Numerics.Vectors.dll
+F:\Proyecto\Proyecto Final\bin\Debug\System.Buffers.dll
+F:\Proyecto\Proyecto Final\obj\Debug\Proyecto Final.csproj.AssemblyReference.cache
+F:\Proyecto\Proyecto Final\obj\Debug\Proyecto Final.exe.config
+F:\Proyecto\Proyecto Final\obj\Debug\Proyecto_Final.Proyecto.Inicio_Sesion.FormInicioSesion.resources
+F:\Proyecto\Proyecto Final\obj\Debug\Proyecto_Final.Proyecto.Menu.Crear_y_Borrar_Usuario.FormCrearYBorrarUsuario.resources
+F:\Proyecto\Proyecto Final\obj\Debug\Proyecto_Final.Proyecto.Menu.FormPrincipal.resources
+F:\Proyecto\Proyecto Final\obj\Debug\Proyecto_Final.Proyecto.Menu.Productos.FormProductos.resources
+F:\Proyecto\Proyecto Final\obj\Debug\Proyecto_Final.Proyecto.Menu.Proveedores.FormProveedores.resources
+F:\Proyecto\Proyecto Final\obj\Debug\Proyecto_Final.Proyecto.Menu.Tipos_Productos.FormTiposProductos.resources
+F:\Proyecto\Proyecto Final\obj\Debug\Proyecto Final.csproj.GenerateResource.cache
+F:\Proyecto\Proyecto Final\obj\Debug\Proyecto Final.csproj.CoreCompileInputs.cache
+F:\Proyecto\Proyecto Final\obj\Debug\Proyecto.334F53BF.Up2Date
+F:\Proyecto\Proyecto Final\obj\Debug\Proyecto Final.exe
+F:\Proyecto\Proyecto Final\obj\Debug\Proyecto Final.pdb
+F:\Proyecto\Proyecto Final\obj\Debug\Proyecto_Final.Proyecto.Menu.Ventas.FormVentas.resources
+F:\Proyecto\Proyecto Final\obj\Debug\Proyecto_Final.Proyecto.Menu.Compras.FormCompras.resources
+F:\Proyecto\Proyecto Final\obj\Debug\Proyecto_Final.Proyecto.Menu.Clientes.FormClientes.resources
+F:\Proyecto\Proyecto Final\obj\Debug\Proyecto_Final.Proyecto.Menu.Detalles_Compras.FormDetallesCompras.resources
+F:\Proyecto\Proyecto Final\obj\Debug\Proyecto_Final.Proyecto.Menu.Detalles_Ventas.FormDetallesVentas.resources

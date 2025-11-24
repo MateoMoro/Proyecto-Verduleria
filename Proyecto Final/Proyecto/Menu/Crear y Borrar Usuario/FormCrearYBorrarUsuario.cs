@@ -1,0 +1,215 @@
+﻿using Proyecto_Final.Clases;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Proyecto_Final.Proyecto.Menu.Crear_y_Borrar_Usuario
+{
+    public partial class FormCrearYBorrarUsuario : Form
+    {
+        public FormCrearYBorrarUsuario()
+        {
+            InitializeComponent();
+            cargarDataGrid();
+            dataGridView1.CellClick += dataGridView1_CellClick;
+        }
+
+        private void cargarDataGrid()
+        {
+            dataGridView1.DataSource = null;
+            ModeloCrearYBorrarUsuario m = new ModeloCrearYBorrarUsuario();
+            dataGridView1.DataSource = m.obtenerUsuarios();
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.DisplayedCells;
+        }
+
+        private void Btn_CrearUsuario_Click(object sender, EventArgs e)
+        {
+            Btn_BorrarUsuario.Visible = false;
+            LCU_Nombre.Visible = true;
+            textBoxCU_Nombre.Visible = true;
+            LCU_Apellido.Visible = true;
+            textBoxCU_Apellido.Visible = true;
+            LCU_NombreUsuario.Visible = true;
+            textBoxCU_NombreUsuario.Visible = true;
+            LCU_Contraseña.Visible = true;
+            textBoxCU_Contraseña.Visible = true;
+            LCU_CContraseña.Visible = true;
+            textBoxCU_CContraseña.Visible = true;
+            BtnCU_Registrar.Visible = true;
+            BtnCU_Cancelar.Visible = true;
+            BtnCU_Volver.Visible = true;
+            Btn_Listado.Visible = true;
+        }
+
+        private void Btn_BorrarUsuario_Click(object sender, EventArgs e)
+        {
+            Btn_CrearUsuario.Visible = false;
+            LBU_NombreUsuario.Visible = true;
+            textBoxBU_NombreUsuario.Visible = true;
+            LBU_Contraseña.Visible = true;
+            textBoxBU_Contraseña.Visible = true;
+            LBU_CContraseña.Visible = true;
+            textBoxBU_CContraseña.Visible = true;
+            BtnBU_Borrar.Visible = true;
+            BtnBU_Cancelar.Visible = true;
+            BtnBU_Volver.Visible = true;
+            Btn_Listado.Visible = true;
+        }
+
+        private void BtnCU_Registrar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Usuario user = new Usuario();
+                user.UsuarioNombre = textBoxCU_NombreUsuario.Text;
+                user.Password = textBoxCU_Contraseña.Text;
+                user.PasswordConfirma = textBoxCU_CContraseña.Text;
+                user.Nombre = textBoxCU_Nombre.Text;
+                user.Apellido = textBoxCU_Apellido.Text;
+                ControlCrearYBorrarUsuario control = new ControlCrearYBorrarUsuario();
+                MessageBox.Show(control.ControlRegistroUsuario(user), "Control de usuarios", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
+
+        private void BtnBU_Borrar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Usuario user = new Usuario();
+                user.UsuarioNombre = textBoxBU_NombreUsuario.Text;
+                user.Password = textBoxBU_Contraseña.Text;
+                user.PasswordConfirma = textBoxBU_CContraseña.Text;
+                ControlCrearYBorrarUsuario control = new ControlCrearYBorrarUsuario();
+                MessageBox.Show(control.ControlBorrarUsuario(user), "Control de borrado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                // Si se borró, o tras el aviso, limpiar campos
+                textBoxBU_NombreUsuario.Text = "";
+                textBoxBU_Contraseña.Text = "";
+                textBoxBU_CContraseña.Text = "";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
+
+        private void BtnCU_Cancelar_Click(object sender, EventArgs e)
+        {
+            textBoxCU_Nombre.Text = "";
+            textBoxCU_Apellido.Text = "";
+            textBoxCU_NombreUsuario.Text = "";
+            textBoxCU_Contraseña.Text = "";
+            textBoxCU_CContraseña.Text = "";
+            textBoxCU_Nombre.Focus();
+        }
+
+        private void BtnBU_Cancelar_Click(object sender, EventArgs e)
+        {
+            textBoxBU_NombreUsuario.Text = "";
+            textBoxBU_Contraseña.Text = "";
+            textBoxBU_CContraseña.Text = "";
+            textBoxBU_NombreUsuario.Focus();
+        }
+
+        private void BtnCU_Volver_Click(object sender, EventArgs e)
+        {
+            Btn_BorrarUsuario.Visible = true;
+            LCU_Nombre.Visible = false;
+            textBoxCU_Nombre.Visible = false;
+            LCU_Apellido.Visible = false;
+            textBoxCU_Apellido.Visible = false;
+            LCU_NombreUsuario.Visible = false;
+            textBoxCU_NombreUsuario.Visible = false;
+            LCU_Contraseña.Visible = false;
+            textBoxCU_Contraseña.Visible = false;
+            LCU_CContraseña.Visible = false;
+            textBoxCU_CContraseña.Visible = false;
+            BtnCU_Registrar.Visible = false;
+            BtnCU_Cancelar.Visible = false;
+            BtnCU_Volver.Visible = false;
+            Btn_Listado.Visible = false;
+            dataGridView1.Visible = false;
+            Btn_Actualizar.Visible = false;
+        }
+
+        private void BtnBU_Volver_Click(object sender, EventArgs e)
+        {
+            Btn_CrearUsuario.Visible = true;
+            LBU_NombreUsuario.Visible = false;
+            textBoxBU_NombreUsuario.Visible = false;
+            LBU_Contraseña.Visible = false;
+            textBoxBU_Contraseña.Visible = false;
+            LBU_CContraseña.Visible = false;
+            textBoxBU_CContraseña.Visible = false;
+            BtnBU_Borrar.Visible = false;
+            BtnBU_Cancelar.Visible = false;
+            BtnBU_Volver.Visible = false;
+            Btn_Listado.Visible = false;
+            dataGridView1.Visible = false;
+            Btn_Actualizar.Visible = false;
+        }
+
+        private void Btn_Actualizar_Click(object sender, EventArgs e)
+        {
+            cargarDataGrid();
+        }
+
+        private void Btn_Listado_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Visible = true;
+            Btn_Actualizar.Visible = true;
+        }
+
+        private void Btn_Salir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        // Rellenar controles al seleccionar fila
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            try
+            {
+                if (e.RowIndex < 0) return;
+                var row = dataGridView1.Rows[e.RowIndex];
+
+                // Nombre de usuario
+                textBoxBU_NombreUsuario.Text = GetCellValue(row, new[] { "user", "Usuario", "UsuarioNombre", "usuario" }, 0);
+                // rellenar campos de creación si se desea
+                textBoxCU_NombreUsuario.Text = GetCellValue(row, new[] { "user", "Usuario", "UsuarioNombre", "usuario" }, 0);
+                textBoxCU_Nombre.Text = GetCellValue(row, new[] { "Nombre", "nombre", "nombre_persona" }, 1);
+                textBoxCU_Apellido.Text = GetCellValue(row, new[] { "Apellido", "apellido" }, 2);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al cargar fila: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private string GetCellValue(DataGridViewRow row, string[] columnNames, int fallbackIndex)
+        {
+            foreach (var col in columnNames)
+            {
+                if (dataGridView1.Columns.Contains(col))
+                    return row.Cells[col].Value?.ToString() ?? "";
+            }
+            if (row.Cells.Count > fallbackIndex)
+                return row.Cells[fallbackIndex].Value?.ToString() ?? "";
+            return "";
+        }
+
+        private void textBoxBU_CContraseña_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
